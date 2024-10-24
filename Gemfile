@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 group :jekyll_plugins do
-    gem 'wdm', '>=0.1.0'
+    gem "github-pages", group: :jekyll_plugins
     gem 'classifier-reborn'
-    gem 'jekyll', '~> 4.2'
+    gem 'jekyll', '~> 4.0'
     gem 'jekyll-archives'
     gem 'jekyll-email-protect'
     gem 'jekyll-feed'
